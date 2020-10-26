@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>TrackIt</title>
+
+	<!-- Page styles -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-pink.min.css" />
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- Color Picker library -->
+	<script src="libs/jscolor.js"></script>
+
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Convergence|Krona+One|Secular+One|Varela&display=swap" rel="stylesheet">
+
+	<!-- Multiple selections dropdown list -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.css" rel="stylesheet"></link>
+
+</head>
+
+<body>
+
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<div class="website-header mdl-layout__header mdl-layout__header--waterfall">
+			<div class="mdl-layout__header-row">
+
+				<!-- Title -->
+				<span class="mdl-layout-title">
+					TrackIt.
+				</span>
+
+				<!-- Add spacer, to align navigation to the right -->
+				<div class="website-header-spacer mdl-layout-spacer"></div>
+
+				<!-- Navigation. -->
+				<button onclick = "location.href = 'Lecturer_Projects.html'" class="website-home-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="home-button">
+					<i class="material-icons">home</i>
+				</button>
+
+			</div>
+		</div>
+
+		<!-- Drawer -->
+		<div class="website-drawer mdl-layout__drawer">
+			<span class="mdl-layout-title">
+				TrackIt.
+			</span>
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="Lecturer_Projects.html">Dashboard</a>
+				<a class="mdl-navigation__link" href="index.html">Log Out</a>
+			</nav>
+		</div>
+
+		<!--Body Content-->
+		<div class="website-content mdl-layout__content">
+			<div class="website-main-container" style="background-color: #f3f3f3; height:930px;">
+				<div class="inner-container">
+					<span class="title-header">
+						Edit Project
+					</span>
+
+					<!-- Title field -->
+					<div class="input-container">
+						<span class="input-header">Title</span>
+						<br>
+						<div class="mdl-textfield mdl-js-textfield">
+							<input class="mdl-textfield__input"  type="text" id="title">
+							<label class="mdl-textfield__label" for="title" >Title</label>
+						</div>
+
+						<!-- Description field -->
+						<br>
+						<br>
+						<br>
+						<span class="input-header">Description</span>
+						<br>
+						<div class="mdl-textfield mdl-js-textfield">
+							<textarea class="mdl-textfield__input" type="text" rows= "2" id="description" ></textarea>
+							<label class="mdl-textfield__label" for="description">Description</label>
+						</div>
+
+
+						<!-- Members field -->
+						<h6>Members</h6>
+						<div class="mdl-textfield mdl-js-textfield">
+							<select multiple class="mdl-textfield__input" id="projectMembers">
+								<!-- Add members here in js -->
+							</select multiple>
+						</div>
+
+						<!-- Color field -->
+						<br>
+						<br>
+						<br>
+						<span class="input-header">Color</span>
+						<br>
+						<div class="mdl-textfield mdl-js-textfield">
+							<input class="mdl-textfield__input jscolor" type="text" id="color">
+							<label class="mdl-textfield__label" for="color">Color</label>
+						</div>
+					</div>
+					<!-- Save and Cancel Button -->
+					<br>
+					<br>
+					<div class="button-area">
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick = "saveChanges()"> Save </button>
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" 	onclick = "cancelChanges()"> Cancel </button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+
+	<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script src="scripts/Local_Storage.js"></script>
+	<script src="scripts/Projects.js"></script>
+	<script src="scripts/Edit_Project.js"></script>
+	</html>

@@ -1,0 +1,514 @@
+
+body {
+  margin: 0;
+}
+
+a img{
+  border: 0px;
+}
+
+.fill40 {
+	width:38vw;
+}
+
+svg {
+  margin-top: 18px;
+  margin-left: 21px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.mdl-layout-title {
+  position: relative;
+  left: 47%;
+  transform: translate(-50%, 0);
+}
+
+
+.website-main-container{
+  position:relative;
+  display: flex;
+  top: 0; right: 0; bottom: 0; left: 0;
+  height: auto;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: #46B6AC;
+}
+
+.cards-area {
+  left: 10%;
+  top: 5%;
+  position: relative;
+  width: 85%;
+}
+
+.inner-container{
+  margin:auto;
+  margin-top: 50px;
+
+    box-shadow: 5px 9px #c8c9cc;
+  position: relative;
+  width: 45%;
+  height: auto;
+  border-radius:25px;
+  padding: 45px;
+  padding-bottom: 70px;
+  background-color: white;
+}
+
+.inner-container-main{
+  margin-top:30px;
+  margin-bottom:20px;
+
+  box-shadow: 5px 9px #c8c9cc;
+  width: 100%;
+  height: auto;
+  border-radius:25px;
+  background-color: white;
+  text-align:Center;
+}
+
+.landing-page{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  }
+
+.landing-page-title{
+  color: white;
+  font-family: Staatliches;
+  font-size:25px;
+  font-weight: lighter;
+  padding:20px 0 0 0;
+}
+
+.landing-page-content{
+  color: white;
+  font-family: Montserrat;
+  width: 300px;
+  font-size:20px;
+  font-weight: 400;
+  margin: auto;
+}
+
+.logo{
+  width:50%;
+}
+
+.background-img{
+  background-image: url(Images/main_bg.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.chart-area{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.chart{
+  box-shadow: 5px 10px #c8c9cc;
+  border-radius:25px;
+  background-color: white;
+  text-align: center;
+}
+
+
+
+.cards-task-area{
+  margin-top:20px;
+  margin-bottom:20px;
+  width: 100%;
+  height: auto;
+  border-radius:25px;
+  background-color: white;
+  text-align:Center;
+}
+
+.task-details{
+  padding:25px;
+  height:30px;
+  table-layout: fixed;
+  text-align: left;
+}
+
+.progress-bar{
+  background-color: #46B6AC;
+  color: white;
+}
+
+
+
+.rounded-corners{
+  border-radius:25px;
+}
+
+.progress-bar-back{
+  background-color: #e3e3e3;
+  margin-left:20px;
+  margin-right:20px;
+
+}
+
+.table{
+  table-layout: fixed;
+}
+
+td{
+  height:30px;
+}
+
+.task-details-fields{
+  width:100%;
+  text-align: left;
+}
+
+
+.title-sign-in{
+  font-family: Roboto;
+  font-size:30px;
+  font-weight:600;
+  color: #575757;
+  padding-bottom:20px;
+
+}
+
+.sign-in{
+  position: absolute;
+  padding:30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 425px;
+  height: auto;
+  border-radius:10px;
+  background-color: white;
+  text-align:Center;
+}
+
+.register-sign-in{
+  font-family: Roboto;
+  font-size:15px;
+  font-weight:300;
+  color: #7a7a7a;
+  padding-top:30px;
+}
+
+.title-header{
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight:300;
+  color: #38b59c;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+
+.title-header-task{
+  font-size: 25px;
+  font-family: Roboto Condensed;
+  color: #424242;
+}
+
+.task-labels{
+  padding-top: 5px;
+  font-size:15px;
+  color: #707070;
+}
+
+.input-header{
+  font-size: 20px;
+  font-family: Roboto;
+  color: #8a8a8a;
+  height:20px;
+}
+
+.button-area{
+  position: absolute;
+  right: 30px;
+}
+
+.input-container{
+  margin-top: 30px;
+}
+
+.website-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+.navigation-area{
+  position:relative;
+  display: flex;
+  height:auto;
+  width:100%;
+}
+
+
+.website-mobile-title {
+  display: none !important;
+}
+
+
+.website-header {
+  background-color: white;
+}
+
+  .website-header .material-icons {
+    color: #767777 !important;
+  }
+
+  .website-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+  }
+
+  .website-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .website-navigation-container {
+    direction: rtl;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .website-navigation {
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 800px;
+  }
+
+
+  .website-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
+    .website-navigation .mdl-navigation__link:hover {
+      border-bottom: 4px solid #8bc34a;
+    }
+
+
+  .website-home-button {
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+
+
+  .website-drawer {
+    border-right: none;
+  }
+
+    .website-drawer-separator {
+      height: 1px;
+      background-color: #dcdcdc;
+      margin: 8px 0;
+    }
+
+    .website-drawer .mdl-navigation__link.mdl-navigation__link {
+      font-size: 14px;
+      color: #757575;
+    }
+
+    .website-drawer span.mdl-navigation__link.mdl-navigation__link {
+      color: #8bc34a;
+    }
+
+    .website-drawer .mdl-layout-title {
+      position: relative;
+      background: #38b59c;
+      color: white;
+    }
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #ababab;
+  font-weight: 500;
+}
+
+
+.website-label {
+  text-decoration: none;
+  font-family: 'Krona One', sans-serif;
+  margin: auto;
+  font-size: 18px;
+  color: #8bc34a !important;
+}
+
+  .website-label:hover {
+    color: #7cb342 !important;
+  }
+
+  .website-label .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+  }
+
+.website-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+
+  .website-alt-link:hover {
+    color: #00bfa5 !important;
+  }
+
+  .website-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+.website-home-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .website-home-section .website-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+  }
+
+
+
+.website-footer {
+  background-color: #fafafa;
+  position: relative;
+}
+
+  .website-footer a:hover {
+    color: #8bc34a;
+  }
+
+  .website-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+  }
+
+  .website-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+  }
+
+  .website-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+  }
+
+  .website-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+  }
+
+  .website-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+
+.website-label-menu:hover {
+  cursor: pointer;
+}
+
+.demo-card-wide.mdl-card {
+  width: 100%;
+  height: 100px;
+  bottom: 20px;
+  position: relative;
+
+}
+
+.mdl-card__actions {
+  outline: skyblue solid 5px;
+  z-index: 4;
+}
+
+.mdl-button {
+// outline: red solid 5px;
+  margin-left: 10px ;
+
+}
+.demo-card-wide {
+  display: none;
+  height: 200px;
+ // outline: limegreen 10px solid;
+}
+
+
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 50px;
+  background-color:#59b9de;
+}
+
+.mdl-card__title-text {
+  position: relative;
+  top: 6px;
+
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+
+.mdl-textfield {
+  width: 250px;
+  margin-right: 10px;
+  color: #7d7d7d;
+}
+
+}
